@@ -13,28 +13,11 @@
      <div class="button-group">
         <button>profiles</button>
         <button>Bookmark</button>
-        <button class="button dropdown-toggle">Friends</button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Alice</a></li>
-        </ul>
+        <button onclick="location.href='friendPage'">Friends</button>
+        
      </div>
     </div>
     <a href="mainPage.html" class="logout-link">Log out</a>
 
-    <script>
-        const friendBtn = document.getElementById('friendButton');
-        const friendList = document.getElementById('friendList');
-      
-        friendBtn.addEventListener('click', () => {
-            e.stopPropagation();
-            friendList.classList.toggle('hidden');
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!friendList.classList.contains('hidden')) {
-            friendList.classList.add('hidden');
-        }
-        });
-    </script>
 </body>
 </html>

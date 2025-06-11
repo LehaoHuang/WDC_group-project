@@ -47,32 +47,4 @@ body {
     background-color: #ddd;
   }
   
-  /* Friend List */
-.dropdown-menu {
-  position: absolute;
-  top: 100%; 
-  right: 0;   
-  background: white;
-  border: 1px solid #ccc;
-  list-style: none;
-  padding: 0;
-  margin-top: 5px;
-  width: 120px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-radius: 5px;
-  z-index: 100;
-}
 
-.hidden {
-  display: none;
-}
-
-.dropdown-menu li a {
-  display: block;
-  padding: 8px 12px;
-  text-decoration: none;
-  color: #333;
-}
-.dropdown-menu li a:hover {
-  background: #f0f0f0;
-}
