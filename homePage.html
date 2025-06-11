@@ -26,7 +26,14 @@
         const friendList = document.getElementById('friendList');
       
         friendBtn.addEventListener('click', () => {
-          friendList.classList.toggle('hidden');
+            e.stopPropagation();
+            friendList.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!friendList.classList.contains('hidden')) {
+            friendList.classList.add('hidden');
+        }
         });
     </script>
 </body>
