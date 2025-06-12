@@ -24,7 +24,7 @@ body {
 
 
 .button-group {
-    position: relative;
+    position: fixed;
     top: 80px;
     right: 60px;
     display: flex;
